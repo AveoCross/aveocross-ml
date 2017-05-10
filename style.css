@@ -4,6 +4,7 @@ html, body {
 	color: white;
 	margin: 0;
 	padding: 0;
+	background-color: black;
 }
 
 div#top {
@@ -16,6 +17,8 @@ div#top {
 div#LOGO {
 	height: 150px;
 	background-image: url(logo.jpg);
+	background-color: #444444;
+	border: 1px solid white;
 }
 
 div#MENU {
@@ -23,15 +26,15 @@ div#MENU {
 	width: 15%;
 	height: 500px;
 	overflow: hidden;
-	color: black;
+	color: white;
 }
 
 div#TRESC {
 	float: right;
 	width: 85%;
-	height: 500px;
 	overflow: hidden;
-	background-color: gray;
+	display: table;
+	background-color: #444444;
 	color: white;
 }
 
