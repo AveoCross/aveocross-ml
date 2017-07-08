@@ -27,6 +27,7 @@ div#LOGO {
 	background-image: url(logo.jpg);
 	background-size: cover;
 	background-position: center center;
+	border-bottom: 1px solid #606060;
 }
 
 div#MENU {
@@ -45,6 +46,7 @@ div#TRESC {
 	color: white;
 	font-size: large;
 	padding: 15px;
+	border-left: 1px solid #606060;
 }
 
 /*  */
