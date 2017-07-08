@@ -18,6 +18,8 @@ div#top {
 	margin-left: auto;
 	margin-right: auto;
 	text-align: left;
+	display: table;
+	background: #808080;
 }
 
 div#LOGO {
