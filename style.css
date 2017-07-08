@@ -58,15 +58,13 @@ div#MENU ul a {
 	display: block;
 	text-decoration: none;
 	text-align: center;
-	background-color: gray;
+	background-color: #808080;
 	color: black;
-	padding: 6px;
-	border: 3px outset #ccc;
+	padding: 10px 15px;
 }
 
 /* Efekt po najechaniu kursorem */
 div#MENU ul a:hover {
-	border-style: inset;
 	color: white;
-	padding: 7px 3px 3px 7px;
+	background-color: #606060;
 }
