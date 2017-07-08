@@ -7,6 +7,12 @@ html, body {
 	background-color: black;
 }
 
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
 div#top {
 	width: 70%;
 	margin-left: auto;
@@ -36,7 +42,7 @@ div#TRESC {
 	background-color: #444444;
 	color: white;
 	font-size: large;
-	
+	padding: 15px;
 }
 
 /*  */
@@ -50,7 +56,6 @@ div#MENU ul, ul li {
 
 div#MENU ul a {
 	display: block;
-	width: 92%;
 	text-decoration: none;
 	text-align: center;
 	background-color: gray;
