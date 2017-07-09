@@ -1,1 +1,0 @@
-### Prywatna strona internetowa do publikowania jakiegoœ szajsu i modpaczek Minecraft
