@@ -1,25 +1,28 @@
 ﻿@charset "utf-8";
 
-html, body {
-	color: white;
-	margin: 0;
-	padding: 0;
-	background-color: black;
-}
-
+/* Optymalizacja paddingu */
 *{
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
+/* Ustawienia szkieletu strony */
+html, body {
+	color: white;
+	margin: 0;
+	padding: 0;
+	background-color: #121f0a;
+}
+
+/* Ustawienia bloku głównego */
 div#top {
 	width: 70%;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: left;
 	display: table;
-	background: #808080;
+	background: #32531b;
 }
 
 div#LOGO {
@@ -27,29 +30,46 @@ div#LOGO {
 	background-image: url(logo.jpg);
 	background-size: cover;
 	background-position: center center;
-	border-bottom: 1px solid #606060;
+	border-bottom: 1px solid #121f0a;
 }
 
 div#MENU {
 	float: left;
-	width: 15%;
+	width: 17%;
 	overflow: hidden;
 	color: white;
 	font-weight: bold;
 }
 
 div#TRESC {
+	text-align: center;
+	white-space: normal;
 	float: right;
-	width: 85%;
+	width: 83%;
 	overflow: hidden;
-	background-color: #444444;
+	background-color: #58912f;
 	color: white;
 	font-size: large;
 	padding: 15px;
-	border-left: 1px solid #606060;
+	border-left: 1px solid #121f0a;
 }
 
-/*  */
+p#DWNLD {
+	font-size: x-large;
+}
+
+div#FOOTER {
+	width: 100%;
+	height: 50px;
+	overflow: hidden;
+	color: black;
+	font-weight: bold;
+	text-align: right;
+	padding: 15px;
+	border-top: 1px solid #121f0a
+}
+
+/* Ustawienia menu */
 div#MENU ul, ul li {
 	display: block;
 	list-style: none;
@@ -58,18 +78,19 @@ div#MENU ul, ul li {
 	width: 100%;
 }
 
+/* Ustawienia przycisków menu domyślnie */
 div#MENU ul a {
 	display: block;
 	text-decoration: none;
 	text-align: center;
-	background-color: #808080;
+	background-color: #3a7c0c;
 	color: black;
 	padding: 10px 15px;
-	border-bottom: 1px solid #606060;
+	border-bottom: 2px solid #121f0a;
 }
 
 /* Efekt po najechaniu kursorem */
 div#MENU ul a:hover {
 	color: white;
-	background-color: #606060;
+	background-color: #499b0f;
 }
