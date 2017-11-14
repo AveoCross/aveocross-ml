@@ -8,11 +8,11 @@
 }
 
 /* Ustawienia szkieletu strony */
-html, body {
-	color: white;
+body {
 	margin: 0;
 	padding: 0;
-	background-color: #121f0a;
+	background-image: url(bg_main.png);
+	background-repeat: repeat;
 }
 
 /* Ustawienia bloku głównego */
@@ -37,7 +37,6 @@ div#MENU {
 	float: left;
 	width: 17%;
 	overflow: hidden;
-	color: white;
 	font-weight: bold;
 }
 
