@@ -5,12 +5,21 @@
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto"/>
     <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
-    <meta name="description" content="Brak treści." />
+    <meta name="description" content="Strony nie znaleziono." />
     <meta name="author" content="Aveo 'Kamil' Cross" />
+	<style type="text/css">
+		body { background-image: url(bg_err.png); background-repeat: repeat; animation: bg_anim 5s linear infinite; overflow: hidden; margin: 0; padding: 0; }
+		div#flexbox { display: flex; justify-content: center; align-items: center; height: 100vh; }
+		div#main { font-family: Roboto; color: white; text-align: center; }
+		@keyframes bg_anim {
+			from {background-position: 0% 0%; }
+			to {background-position: 100% 200%; }
+		}
+	</style>
 </head>
-<body style="background-image: url(bg_err.png); background-repeat: repeat; overflow: hidden; margin: 0; padding: 0;" >
-<div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
-  <div style="font-family: Roboto; color: white; text-align: center;">
+<body>
+<div id="flexbox">
+  <div id="main">
 	  <h1>404 - NIE ZNALEZIONO</h1>
 	  <p>Szukana strona lub plik nie zostały znalezione.</p>
   </div>
