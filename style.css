@@ -11,7 +11,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-image: url(bg_main.png);
+	background-image: url(/bg_main.png);
 	background-repeat: repeat;
 }
 
@@ -27,7 +27,7 @@ div#top {
 
 div#LOGO {
 	height: 300px;
-	background-image: url(logo.jpg);
+	background-image: url(/logo.jpg);
 	background-size: cover;
 	background-position: center center;
 	border-bottom: 1px solid #121f0a;
